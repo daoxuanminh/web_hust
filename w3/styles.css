@@ -138,3 +138,22 @@ footer p {
     color: #f0f0f0;
     font-size: 18px;
 }
+@media only screen and (max-width: 1000px) {
+    #project-items a {
+        max-width: max-content;
+    }
+    #project-items a img {
+        max-width: 250px;
+        margin-bottom: none;
+    }
+    #projects{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #project-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+}
